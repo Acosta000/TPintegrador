@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light m0 custom1"> <!--barra de navegacion-->
+        <nav class="navbar navbar-light custom1 w-100 fija top-0"> <!--barra de navegacion-->
             <div class="container-fluid custom1">
                 <a class="navbar-brand custom2" href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa">
                     <img src="./Img/APLogo.png" alt="Logo" width="100" height="30" class="d-inline-block align-text-center">
@@ -56,7 +56,7 @@
                 </div>
             </div>
         </nav>
-            <div id="carouselExampleIndicators" class="carousel slide container-fluid w-75 mt-3" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide container-fluid p-5" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -85,12 +85,20 @@
         </div>
         
     </header>
-    <section class="acerdade">
-        <div class="foto-perfil"></div>
-        <div class="info-profesional"></div>
+    <section class="container mt-5"> <!--Acerca de-->
+        <div class="row">
+            <div class="col-3 d-flex"><!--foto de perfil-->
+                <img src="./Img/Profile.jpeg" alt="" class="img-thumbnail mx-auto img-fluid rounded-circle perfil-foto">
+            </div><!--info de perfil-->
+            <div class="col-9 custom1 rounded custom2 pt-3 shadow-sm">
+                <h3>Marcos Vera - Estudiante de Ing.Industral - Full Stack Jr.</h3>
+                <p class="text-start me-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officiis, magnam delectus nam animi repudiandae itaque ratione quod deleniti cumque molestiae voluptas veritatis iste aperiam perspiciatis vel accusantium explicabo laudantium ex est repellat. Iure labore culpa eligendi ducimus, quasi nisi provident cum id voluptates eaque quo cupiditate inventore debitis nesciunt!</p>
+            </div>
+        </div> 
     </section>
-    <section class="exp">
-        <div class="trab1"></div>
+    <section class="container"> <!--Experiencia -->
+        <div class="row"></div>
+            <div class="col"></div>
         <div class="trab2"></div>
         <div class="trab3"></div>
     </section>
